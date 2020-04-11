@@ -1,0 +1,8 @@
+{
+    "name": "Lulu's Bot",
+    "description": "",
+    "main": "app.js",
+    "token": "",
+    "author": "Lulu",
+    "prefix": "."
+}

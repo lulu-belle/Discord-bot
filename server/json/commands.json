@@ -1,0 +1,234 @@
+{
+    "addemote": {
+        "name": "addemote",
+        "group": "admin",
+        "desc": "adds an emote from a link/image/emote",
+        "usage": ".addemote [http://link.com/messaage id/:emote:] [name of new emote]",
+        "example": ".addemote http://link.com exampleEmote"
+    },
+    "ban": {
+        "name": "ban",
+        "group": "admin",
+        "desc": "Ban an user from the server",
+        "usage": ".ban [user] [reason]",
+        "example": ".ban @example#1234 blah blah"
+    },
+    "unban": {
+        "name": "unban",
+        "group": "admin",
+        "desc": "unban an user from the server",
+        "usage": ".unban [user] [reason]",
+        "example": ".unban @example#1234 blah blah"
+    },
+    "banlist": {
+        "name": "banlist",
+        "group": "admin",
+        "desc": "Get list of banned users",
+        "usage": ".banlist [number]",
+        "example": ".banlist 1"
+    },
+    "kick": {
+        "name": "kick",
+        "group": "admin",
+        "desc": "Kick an user from the server",
+        "usage": ".kick [user] [reason]",
+        "example": ".kick @example#1234 blah blah"
+    },
+    "messagelog": {
+        "name": "messagelog",
+        "group": "admin",
+        "desc": "set the channel to send edited and deleted messages",
+        "usage": ".messagelog [channel]",
+        "example": ".messagelog #channel"
+    },
+    "setmessagelog": {
+        "name": "setmessagelog",
+        "group": "admin",
+        "desc": "set the channel to send edited and deleted messages",
+        "usage": ".setmessagelog [channel]",
+        "example": ".setmessagelog #channel"
+    },
+    "modchannel": {
+        "name": "modchannel",
+        "group": "admin",
+        "desc": "set the channel to send mod related messages",
+        "usage": ".modchannel [channel]",
+        "example": ".modchannel #channel"
+    },
+    "setmodchannel": {
+        "name": "setmodchannel",
+        "group": "admin",
+        "desc": "set the channel to send mod related messages",
+        "usage": ".setmodchannel [channel]",
+        "example": ".setmodchannel #channel"
+    },
+    "mute": {
+        "name": "mute",
+        "group": "admin",
+        "desc": "mute a user, need to tell me muted role with **.mutedrole** before you can use this",
+        "usage": ".mute [user] [reason]",
+        "example": ".mute @example#1234 blah blah"
+    },
+    "mutedrole": {
+        "name": "mutedrole",
+        "group": "admin",
+        "desc": "set the muted role for the serveur",
+        "usage": ".mutedrole [@role/role name/role id]",
+        "example": ".mutedrole @role"
+    },
+    "setmutedrole": {
+        "name": "setmutedrole",
+        "group": "admin",
+        "desc": "set the muted role for the serveur",
+        "usage": ".setmutedrole [@role/role name/role id]",
+        "example": ".setmutedrole @role"
+    },
+    "joinroles": {
+        "name": "joinroles",
+        "group": "admin",
+        "desc": "set the roles to give new members that join the serveur",
+        "usage": ".joinroles [@role/role name/role id] [@role/role name/role id]",
+        "example": ".joinroles @role1 @role2"
+    },
+    "setjoinroles": {
+        "name": "setjoinroles",
+        "group": "admin",
+        "desc": "set the roles to give new members that join the serveur",
+        "usage": ".setjoinroles [@role/role name/role id] [@role/role name/role id]",
+        "example": ".setjoinroles @role1 @role2"
+    },
+    "warn": {
+        "name": "warn",
+        "group": "admin",
+        "desc": "gives 1 warning to a user",
+        "usage": ".warn [user] [reason]",
+        "example": ".warn @example#1234 blah blah"
+    },
+    "pardon": {
+        "name": "pardon",
+        "group": "admin",
+        "desc": "removes 1 warning from a user",
+        "usage": ".pardon [user] [reason]",
+        "example": ".pardon @example#1234 blah blah"
+    },
+    "ping": {
+        "name": "ping",
+        "group": "admin",
+        "desc": "easy check to see if bot is alive",
+        "usage": ".ping",
+        "example": ".ping"
+    },
+    "pong": {
+        "name": "pong",
+        "group": "admin",
+        "desc": "easy check to see if bot is alive",
+        "usage": ".pong",
+        "example": ".pong"
+    },
+    "purge": {
+        "name": "purge",
+        "group": "admin",
+        "desc": "Delete an amount of messages, the number must be between 1 and 100",
+        "usage": ".purge [number]",
+        "example": ".purge 5"
+    },
+    "purgebulk": {
+        "name": "purgebulk",
+        "group": "admin",
+        "desc": "Delete an amount of messages, the number must be between 1 and 100",
+        "usage": ".purgebulk [number]",
+        "example": ".purgebulk 5"
+    },
+    "purgeuser": {
+        "name": "purgeuser",
+        "group": "admin",
+        "desc": "Delete an amount of messages only from user mentioned, the number must be between 1 and 100",
+        "usage": ".purgeuser [@user/user id]",
+        "example": ".purgeuser @user"
+    },
+    "rolereact": {
+        "name": "rolereact",
+        "group": "admin",
+        "desc": "Walks you through creating a reaction role message",
+        "usage": ".rolereact",
+        "example": ".rolereact"
+    },
+    "reactrole": {
+        "name": "reactrole",
+        "group": "admin",
+        "desc": "Walks you through creating a reaction role message",
+        "usage": ".reactrole",
+        "example": ".reactrole"
+    },
+    "antiblankavatar": {
+        "name": "antiblankavatar",
+        "group": "automod",
+        "desc": "toggles kicking users that join with no avatar",
+        "usage": ".antiblankavatar",
+        "example": ".antiblankavatar"
+    },
+    "setantiblankavatar": {
+        "name": "setantiblankavatar",
+        "group": "automod",
+        "desc": "toggles kicking users that join with no avatar",
+        "usage": ".setantiblankavatar",
+        "example": ".setantiblankavatar"
+    },
+
+    "help": {
+        "name": "help",
+        "group": "info",
+        "desc": "Display the list of commands if you just type .help or if you type .help commandName display the current command info",
+        "usage": ".help or .help [commandName]",
+        "example": ".help or .help getroles"
+    },
+    "info": {
+        "name": "info",
+        "group": "info",
+        "desc": "Get bot info",
+        "usage": ".info",
+        "example": ".info"
+    },
+    "serverinfo": {
+        "name": "serverinfo",
+        "group": "info",
+        "desc": "Get server info",
+        "usage": ".serverinfo",
+        "example": ".serverinfo"
+    },
+    "uptime": {
+        "name": "uptime",
+        "group": "info",
+        "desc": "Get bot uptime",
+        "usage": ".uptime",
+        "example": ".uptime"
+    },
+    "userinfo": {
+        "name": "userinfo",
+        "group": "info",
+        "desc": "Get your user info",
+        "usage": ".userinfo",
+        "example": ".userinfo"
+    },
+    "avatar": {
+        "name": "avatar",
+        "group": "info",
+        "desc": "Diplay the avatar of a given user",
+        "usage": ".avatar [user]",
+        "example": ".avatar @example#1234"
+    },
+    "getroles": {
+        "name": "getroles",
+        "group": "info",
+        "desc": "Diplay the roles of a given user",
+        "usage": ".getroles [user]",
+        "example": ".getroles @example#1234"
+    },
+    "eval": {
+        "name": "eval",
+        "group": "admin",
+        "desc": "Eval command for javascript",
+        "usage": ".eval [js]",
+        "example": ".eval message.delete()"
+    }
+}

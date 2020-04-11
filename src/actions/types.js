@@ -1,0 +1,2 @@
+export const FETCH_SERVER = "FETCH_SERVER";
+export const FETCH_SERVERS = "FETCH_SERVERS";
